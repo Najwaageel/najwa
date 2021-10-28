@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(250, 201, 201);
+    
+}
+.pag {
+    background:url(./flower1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 40px; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px; 
+    background-color: rgba(240, 248, 255, 0.493);  
+    
+}
+.brand {
+    padding: 10px;
+    border: 2px solid darkred;
+    
+}
+.navigation ul{
+display: flex;
+list-style: none;
+gap: 20px;
+
+}
+.navigation a {
+    color: darkred;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.showcase {
+display: flex ;
+flex-direction: column ;
+justify-content: center;
+align-items: center;
+}
+.showcase h1 {
+    color: darkred;
+    font-size: 50px;
+    margin-top: 200px;
+    margin-bottom : 10px;  
+}
+.showcase h2 {
+    color: rgb(167, 14, 14);
+    font-size: 30px ;
+    margin-bottom : 10px ;
+    padding-bottom: 20px;
+}
+.showcase p {
+    color: rgb(145, 11, 11);
+    font-size: 20px ;
+    margin-bottom: 250px ;
+}
+.tag {
+    text-align: center;
+    color: rgb(145, 37, 37);
+    font-size: 30px ;
+    margin-top: 30px;
+    margin-bottom : 80px ;   
+}
+.section {
+display: flex ;
+justify-content: center;
+align-items: center;
+padding: 50px 300px;
+gap: 200px;
+}
+.box img{
+    border-radius: 40px;
+    border: 2px solid #a4133c;
+   
+}
+.box h3 {
+    text-align: center;
+   color: rgb(145, 37, 37); 
+   font-size: bold ;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+.box p {
+    text-align: center;
+color: rgb(148, 58, 58);
+font-style: oblique;
+line-height: 1.6;
+padding-bottom: 15px;
+}
+.box button { 
+    margin-left: 30px; 
+    border: 1.5px solid #a4133c; 
+    background-color:#e6cccc; 
+    border-radius: 100px; 
+}
+.box a {
+    color: #a4133c;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-decoration: none; 
+}
+.box button:hover{
+    transition: border 0.9s linear;
+    background-color: rgba(255, 255, 255, 0.596);
+    
+}
+.pag2 {
+    background-color: rgb(247, 166, 166);
+    gap: 30px;
+    padding: 10px;
+    display: flex;
+   align-items: center; 
+   
+}
+.pag2 h4{
+    padding-left: 50px;
+    color: grey;
+}
+.pag2 h5{
+    font-size: medium;
+    padding-left: 800px;
+    color: grey;
+}
+.pag2 ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.pag2 li {
+    filter: invert(0.3);
+    transform: scale(.6);
+}
+

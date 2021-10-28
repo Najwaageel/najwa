@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    background-color: rgba(236, 159, 159, 0.699);
+       
+}
+.brand {
+    padding: 10px;
+    border: 2px solid darkred;
+}
+.navigation ul{
+display: flex;
+list-style: none;
+gap: 20px;
+
+}
+.navigation a {
+    color: darkred;
+    text-decoration: none;
+    font-size: 20px;
+}
+.pag {
+    padding: 50px 200px;
+    background-color: rgb(250, 201, 201);
+}
+.pox {
+    border: 3px solid darkred;
+    border-radius: 50px;
+    margin: 100px 200px;
+    text-align: center;
+    background-color: rgba(247, 166, 166, 0.486);
+    padding-bottom: 150px;
+}
+.pox h2 {
+    color: #941035;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button {
+        color: #941035;
+        border: 1.6px solid #941035;
+        border-radius: 10px;
+        background-color: rgba(219, 213, 213, 0.945);
+        margin: 20px;
+        margin-top: 50px;
+        padding: 20px;
+}
+button:hover{
+    transition: border 0.9s linear;
+    background-color: rgba(255, 255, 255, 0.596);
+    
+}
+.text {
+    color: #941035;
+    font-size: 30px;
+   
+}

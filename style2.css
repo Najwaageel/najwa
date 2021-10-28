@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+    background-color: rgba(236, 159, 159, 0.699); 
+}
+.brand {
+    padding: 10px;
+    border: 2px solid darkred;
+}
+.navigation ul{
+display: flex;
+list-style: none;
+gap: 20px;
+}
+.navigation a {
+    color: darkred;
+    text-decoration: none;
+    font-size: 20px;
+}
+.pag {
+    padding: 50px 200px;
+    background-color: rgb(250, 201, 201);
+   
+}
+.card.mb-3{
+    border: solid 3px darkred;
+    box-shadow: 10px 10px 10px 10px grey;
+    background-color: rgb(250, 201, 201);
+}
+.card-body h5{
+    text-align: center;
+     color: white;
+     padding-top: 30px;
+     padding-bottom: 20px;
+}
+.card-body h6{
+    text-align: center;
+     color: white;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+.card-body p {
+    color:rgb(148, 58, 58);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    padding-bottom: 20px;
+}
+.card-body ul {
+    color:  #8d0e32; 
+}
+.pic {
+    height: 100%!important;
+    object-fit: cover; 
+}
+
